@@ -1,4 +1,4 @@
-package com.oops.ClassAndObjects;
+package com.oops.classandobjects.day1;
 
 enum FUEL_TYPE {
 	PETROL, DIESEL, CNG, ELECTRIC

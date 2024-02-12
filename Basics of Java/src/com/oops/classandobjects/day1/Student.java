@@ -1,4 +1,4 @@
-package com.oops.ClassAndObjects;
+package com.oops.classandobjects.day1;
 
 import java.util.Arrays;
 
