@@ -5,7 +5,18 @@ public class Employee {
 	private String name;
 	private double salary;
 
-	private static int count = 0;
+	private static int count;
+
+	// Static Initializer block
+	static {
+		count = 0;
+		System.out.println("static Initializer block");
+	}
+
+	// Initializer block
+	{
+		System.out.println("Initializer block");
+	}
 
 //	public Employee() {
 //		this.id = 0;
@@ -21,6 +32,7 @@ public class Employee {
 	}
 
 	public Employee(int id, String name, double salary) {
+		System.out.println("Constructor");
 		this.id = id;
 		this.name = name;
 		this.salary = salary;
