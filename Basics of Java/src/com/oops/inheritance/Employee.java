@@ -35,6 +35,7 @@ public class Employee extends Person {
 				+ "]";
 	}
 
+
 	public double calculateSalary() {
 		return this.salary - 200;
 	}

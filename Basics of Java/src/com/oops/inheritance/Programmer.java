@@ -9,7 +9,7 @@ public class Programmer extends Employee {
 	Programmer(String name, String address) {
 		this(name, address, 0.0);
 	}
-	
+
 	Programmer(String name, double salary) {
 		this(name, "Undefined", salary);
 	}
@@ -20,8 +20,8 @@ public class Programmer extends Employee {
 
 	@Override
 	public String toString() {
-		return "Programmer [empId=" + getEmpId() + ", name=" + getName() + ", salary=" + getSalary() + ", address="
-				+ getAddress() + "]";
+		return "Programmer [empId=" + getEmpId() + ", name=" + getName() + ", salary=" + calculateSalary()
+				+ ", address=" + getAddress() + "]";
 	}
 
 }

@@ -5,6 +5,7 @@ public class Person {
 	private String address;
 
 	public Person(String name, String address) {
+		super();
 		this.name = name;
 		this.address = address;
 	}
