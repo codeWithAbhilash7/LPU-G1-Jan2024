@@ -21,12 +21,6 @@ public class SalesPerson extends Employee {
 		this.incentivePerSale = incentivePerSale;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Programmer [empId=" + getEmpId() + ", name=" + getName() + ", salary=" + getSalary() + ", address="
-//				+ getAddress() + "]";
-//	}
-
 	@Override
 	public String toString() {
 		return "SalesPerson [empId=" + super.getEmpId() + ", name=" + super.getName() + ", salary="
